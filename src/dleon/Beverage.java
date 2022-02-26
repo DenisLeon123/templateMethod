@@ -28,7 +28,7 @@ abstract public class Beverage {
     }
 
     public Select selectCondiments(){
-        return selectCond == true? YES : NO;
+        return selectCond ? YES : NO;
     }
 
     public void setSelectCond(Select select){
