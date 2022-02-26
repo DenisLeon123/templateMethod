@@ -2,7 +2,7 @@ package dleon;
 
 abstract public class Beverage {
 
-    final void prepareRecipe(){
+    public final void prepareRecipe(){
         boilWater();
         brew();
         pourInCup();
